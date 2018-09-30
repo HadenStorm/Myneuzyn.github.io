@@ -1,0 +1,195 @@
+body {
+	background-color: #EAEBEF;
+}
+#foto {
+	width: 30%;
+	height: 50%;
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	background-image: url(fotinha.jpg);
+	background-size: cover;
+	box-shadow: 5px 5px 20px #000;
+	border: 3px solid white;
+	border-radius: 10px;
+	z-index: 2
+}
+
+.nome {
+	font-weight: bold;
+	font-size: 35px;
+	font-family: "calibri";
+	color: white;
+	position: absolute;
+	left: 35%;
+	top:37%;
+	z-index: 2;
+
+}
+
+#capa {
+	width: 100%;
+	height: 45%;
+	background-image: url(gifcapa.gif);
+	background-position: center;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+
+#divdescricao {
+	width: 30%;
+	height: auto;
+	background-color: white;
+	border: 3px solid grey;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px #000;
+	position: absolute;
+	top:60%;
+	left: 3%;
+}
+
+.descricao {
+	color:#2d2d2d;
+	font-family: "arial";
+	padding: 10px;
+	font-size: 18px;
+}
+
+#conteudo {
+	background-color: black;
+	width: 60%;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 38%;
+}
+
+#gosto {
+	background-image: url(bloco1.png);
+	width: 30%;
+	height: 45%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	transition:all 0.3s ease;
+}
+
+#gosto:hover {
+	background-image: url(bloco1hover.png);
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	z-index: 2;
+}
+
+
+#naogosto {
+	background-image: url(bloco2.png);
+	width: 30%;
+	height: 45%;
+	position: absolute;
+	top: 2%;
+	left: 35%;
+	transition:all 0.3s ease;
+}
+
+#naogosto:hover {
+	background-image: url(bloco2hover.png);
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	z-index: 2;
+}	
+
+#faco {
+	background-image: url(bloco3.png);
+	width: 30%;
+	height: 45%;
+	position: absolute;
+	top: 2%;
+	left: 68%;
+	transition:all 0.3s ease;
+}
+
+#faco:hover {
+	background-image: url(bloco3hover.png);
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	z-index: 2;
+}	
+
+#favoritos {
+	background-image: url(bloco4.png);
+	width: 30%;
+	height: 45%;
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	transition:all 0.3s ease;
+}
+
+#favoritos:hover {
+	background-image: url(bloco4hover.png);
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	z-index: 2;
+}	
+
+#problemas {
+	background-image: url(bloco5.png);
+	width: 30%;
+	height: 45%;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transition:all 0.3s ease;
+}
+
+#problemas:hover {
+	background-image: url(bloco5hover.png);
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	z-index: 2;
+}	
+
+#naosei {
+	background-color: violet;
+	width: 30%;
+	height: 45%;
+	position: absolute;
+	top: 50%;
+	left: 68%;
+	transition:all 0.3s ease;
+}
+
+#naosei:hover {
+	background-image: url(pbjt.gif);
+	width: 96%;
+	height: 96%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	z-index: 2;
+}	
+
+.textobonus{
+	font-family: "calibri";
+	color: white;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
