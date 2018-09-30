@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8">
+ 	 
+ 	
+	<link rel="stylesheet" type="text/css" href="estilotutorialc.css">
+
+	<title> Tutorial C </title>
+
+</head>
+<body>
+ 	
+ 	<h1 class="titulo"> Guia básico da Linguagem C </h1>
+
+<table class="tabelaprincipal">
+	<tr>
+		<td>
+ <p class="texto">
+  Comentários: <br><br>
+
+  Uma das partes mais importantes de qualquer projeto é a organização. <br><br>
+
+  E para nos ajudar a organizar nossas criações, em C podemos usar os comentários. Os comentários são ignorados pelo compilador e apenas o programador pode visualizá-los. Os comentários que possuem apenas uma linha podem ser criados com <span class="dt"> // </span> e os que possuirem mais de uma linha devem ficar entre <span class="dt"> /* </span> e <span class="dt"> */ </span>, veja no exemplo ao lado:
+  		</td>
+
+  		<td>
+  	<h1 class="texto"> Exemplo de comentário </h1>		
+	<div id="imagemexemplo">
+
+	</div>
+		</td>
+
+	</tr>
+	<tr>
+		<td>
+			 <p class="texto">
+  Variáveis e constantes: <br><br>
+
+  Uma variável é um espaço de memória que pode ser identificado por um nome antes atribuido a ele pelo programador. <br><br>
+
+  Pode ter seu conteúdo alterado ao longo do programa por um comando de atribuição, o valor antigo que ocupava o espaço na memória é apagado e agora aquela variável se refere somente ao novo valor, podendo ocorrer ilimitadas vezes. <br> <br>
+
+  Exitem algumas regras na identificação de variáveis: Os caracteres que você pode utilizar na formação dos identificadoes são: números, letras maiúsculas, letras minúsculas e o <i> underscore </i> (_). O primeiro caractere deve ser sempre uma letra, e palavras reservadas da linguagem C não podem ser identificadores. <br><br>
+
+	Os 4 tipos principais de variáveis, sendo eles:    <br>
+
+  <ul class="texto">
+
+  	<li> Caractere - <span class="dt"> char </span> (a, b, c, 1, 2, #, ^, * )</li>
+  	<li> Inteiro -  <span class="dt"> int </span> ( -2, -1, 0, 1, 2 ) </li>
+  	<li> Real -  <span class="dt"> float </span> ( 1.2, 2.5, -20.456 )</li>
+  	<li> Lógico - <span class="dt"> int </span> ( A variável lógica não existe em C, para representá-la usamos <span class="dt"> int </span> com 0 para falso, e qualquer número inteiro para verdadeiro) <br> </li> <br>
+
+</ul>
+
+  	<p class="texto"> Já as constantes, devem ser declaradas antes do bloco principal (main), para atribuir um valor a uma constante digitamos: <br> <span class="dt"> #define </span> "constante" "valor"  
+
+  		<p class="texto" > Acompanhe ao lado um exemplo de declaração de variáveis e uma constante:
+
+  
+		</td>
+		<td>
+			<h1 class="texto"> Exemplo de variável e constante </h1>
+			<div id="imagemexemplo2"></div>
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p class="texto">
+  Comando de Atribuição: <br><br>
+
+Atribuir significa armazenar um valor em uma variável.<br><br>
+
+Em linguagem C usamos o operador <span class="dt"> = </span> para fazer uma atribuição. Para poder atribuir um valor a uma variável, ela tem que ter sido declarada anteriormente.<br><br>
+Veja um exemplo ao lado:
+
+		</td>
+		<td>
+			<h1 class="texto"> Exemplo de comando de atribuição </h1>
+			<div id="imagemexemplo4">
+
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		 <p class="texto">
+  Operadores Aritiméticos: <br><br>
+
+  Operadores aritiméticos realizam cálculos simples que são feitos diretamente pelo computador, através dos 4 operadores básicos podemos constriur infinitas possibilidades de contas e resultados. <br><br>
+
+  Os operadores aritiméticos básicos são os de: <br>
+
+
+  <ul class="texto">
+
+  	<li> Adição - (<span class="dt"> + </span> )</li>
+  	<li> Subtração - (<span class="dt"> - </span>  )</li>
+  	<li> Multiplicação -  (<span class="dt"> * </span> )</li>
+  	<li> Divisão - (<span class="dt"> / </span> ) <br><br> Acompanhe na imagem ao lado exemplos de caúculos com operadores aritiméticos: </li>
+  											
+  	 					
+
+  </ul>
+
+  
+		</td>
+		<td>
+			<h1 class="texto"> Exemplo de operadores aritiméticos </h1>
+			<div id="imagemexemplo3"></div>
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p class="texto">
+  Operadores relacionais: <br><br>
+
+  Os operadores relacionais são usados em conjuto com os operandos, que podem ser variáveis ou constantes já declaradas. Juntos, formam expressões lógicas que retornam valores de verdadeiro ou falso. <br><br>
+
+  Os operadores relacionais são: <br>
+
+
+  <ul class="texto">
+
+  	<li> Igual - (<span class="dt"> == </span> )</li>
+  	<li> Maior - (<span class="dt"> > </span>  )</li>
+  	<li> Menor -  (<span class="dt"> < </span> )</li>
+  	<li> Maior ou igual - (<span class="dt"> >= </span>  )</li>
+  	<li> Menor ou igual -  (<span class="dt"> <= </span> )</li>
+  	<li> Diferente - (<span class="dt"> != </span> ) <br><br> Acompanhe na imagem ao lado exemplos estruturas com operadores relacionais: </li>
+  											
+  </ul>
+	</td>
+		<td>
+			<h1 class="texto"> Exemplo de operadores relacionais </h1>
+			<div id="imagemexemplo5"></div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<p class="texto">
+  Estruturas condicionais: <br><br>
+
+ Chamamos de estruturas condicionais as instruções para testar se uma condição é verdadeira ou não. <br><br>
+
+ A instrução <span class="dt">if</span> é a estrutura de teste mais básica. Ela permite executar uma série de instruções caso uma condição se realize. A sintaxe desta expressão é a seguinte: <br>
+
+ <pre>
+ 	<span class="dt">
+ 	if (condição a ser testada)
+ 	{
+		lista de instruções;
+	}
+ 	</span>
+ </pre>
+
+ <p class="texto"> Se a condição testada for verdadeira, o computador segue a lista de intruções, se não, a mesma é ignorada e o computador pula para o próximo item.<br><br>
+ A condição deve ficar entre parênteses. É possível definir várias condições a serem cumpridas com os conectores E e OU (<span class="dt"> && </span> e <span class="dt">||</span>). 
+
+ Para escolher as instruções a serem executadas em caso do não cumprimento da condição, usamos a expressão <span class="dt">else</span>.
+
+  <pre>
+ 	<span class="dt">
+ 	if (condição a ser testada)
+ 	{
+		lista de instruções;
+	}
+	else
+	{
+		lista de instruções(2);
+	}
+ 	</span>
+ </pre>
+
+ <p class="texto">A instrução <span class="dt" > switch </span> efetua vários testes de valores sobre o conteúdo de uma mesma variável. Esta estrutura condicional simplifica muito o teste de vários valores de uma variável, a operação também pode ser feita com if e else, porém ficaria maior e mais complicada. Sua sintaxe é a seguinte:
+
+
+  <pre>
+ 	<span class="dt">
+	switch (variável) {
+
+		caso Valor1:
+		lista de instruções;
+		break;
+
+		caso Valor2 :
+		lista de instruções;
+		break;
+
+		caso Valores... :
+		lista de instruções;
+		Break;
+
+		default:
+		lista de instruções;
+}
+ </pre> 
+
+ <p class="texto"> Acompanhe ao lado exemplos das estruturas citadas:
+
+	</td>
+		<td>
+			<h1 class="texto"> Exemplo da estrutura IF </h1>
+			<div id="imagemexemplo6"></div> 
+			<br><br><br><br>
+			<h1 class="texto"> Exemplo da estrutura switch </h1>
+			<div id="imagemexemplo7"></div>
+		</td>
+	</tr>
+
+	</tr>
+	<tr>
+		<td>
+			<p class="texto">
+  Operações de entrada e saída de dados: <br><br>
+
+Chamamos de saída de dados a exibição de textos ou valores de variáveis no vídeo.<br>
+
+Para a exibição de dados na tela, usamos a função <span class="dt"> printf.</span> <br>
+
+Não há regras para o que pode ser exibido dentro de um comando <span class="dt"> printf</span>.
+
+
+<br> <br>
+
+
+Já a entrada de dados, recolhe os dados informados pelo usuário, que pode por exemplo ser um texto ou valores. <br> 
+
+Para o recolhimento desses dados usamos a função <span class="dt"> scanf. </span> <br>
+
+Para definir o tipo de dado que esta sendo recolhido ou que será exibido, usamos os indicadores:
+
+ <ul class="texto">
+
+  	<li> Int - <span class="dt"> %i</span> </li>
+  	<li> Float - <span class="dt">%f</span></li>
+  	<li> Char - <span class="dt"> %c</span> </li>
+  	<li> String - <span class="dt"> %s</span></li>
+
+  </ul>
+
+
+
+<p class="texto"> Acompanhe ao lado exemplos de entrada e saída de dados.
+
+		</td>
+		<td>
+			<h1 class="texto"> Exemplo de entrada e saída de dados</h1>
+			<div id="imagemexemplo8">
+
+			</div>
+		</td>
+	</tr>
+
+
+</body>
+</html>

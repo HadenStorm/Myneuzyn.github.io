@@ -1,0 +1,89 @@
+body {
+	background-color: black;
+}
+
+h1.titulo {
+	color: #D3D3D3;
+	font-family: "calibri";
+	text-align: center;
+}
+
+.texto {
+	font-family: "calibri";
+	font-size: 20px;
+	color: #D3D3D3;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+.dt {
+	color: lightgreen;
+	font-family: "calibri";
+}
+
+.tabelaprincipal td {
+	background-color: #1a1a1a;
+	border-right: 3px solid black;
+
+}
+
+#imagemexemplo {
+	width: 600px;
+	height: 300px;
+	background-image: url("primeiroeximg.png");
+	background-size: cover;
+
+}
+
+
+#imagemexemplo2 {
+	width: 600px;
+	height: 300px;
+	background-image: url("segundoeximg.png");
+	background-size: cover;
+
+}
+
+#imagemexemplo3 {
+	width: 600px;
+	height: 300px;
+	background-image: url("terceiroeximg.png");
+	background-size: cover;
+
+}
+
+#imagemexemplo4 {
+	width: 600px;
+	height: 300px;
+	background-image: url("quartoeximg.png");
+	background-size: cover;
+}
+
+#imagemexemplo5 {
+	width: 600px;
+	height: 300px;
+	background-image: url("quintoeximg.png");
+	background-size: cover;
+}
+
+#imagemexemplo6 {
+	width: 600px;
+	height: 300px;
+	background-image: url("sextoeximg.png");
+	background-size: cover;
+}
+
+#imagemexemplo7 {
+	width: 600px;
+	height: 800px;
+	background-image: url("setimoeximg.png");
+	background-size: cover;
+}
+
+#imagemexemplo8{
+	width: 600px;
+	height: 400px;
+	background-image: url("oitavoeximg.png");
+	background-size: cover;
+}
