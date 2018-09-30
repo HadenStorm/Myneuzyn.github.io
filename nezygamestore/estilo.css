@@ -1,0 +1,490 @@
+/* Podem ocorrer problemas com a proporção do site, mas tentei
+deixar o melhor possível usando % em vez de pixel para alinhar e 
+mudar o tamanho das div e imagens*/
+ 
+/* imagem de fundo */
+body {
+	background-image: url("FundoTargon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* cabeçalho */
+
+#header {
+	width: 100%;
+ 	height: 70px;
+ 	background-color: #182538;
+ 	position: fixed;
+ 	left: 0;
+ 	top: 0;
+    opacity: 0.9;
+    border-bottom:2px solid gold;
+    z-index: 3;
+}
+
+/* Logo do Site*/
+
+img.logo1 {
+	width: 92px;
+	height: 65px;
+	margin-left: 200px;
+}
+
+/* Nome do Site*/
+
+img.logo2 {
+	position: relative;
+	width: 220px;
+	height: 55px;
+	top:-5px;
+}
+
+/*Painel de destaque*/
+
+#destaque {
+	background-color: #182538;
+	width: 75%;
+	height:300px;
+	margin: auto;
+	margin-top: 100px;
+	text-align: left;
+	border:2px solid gold;
+	position: relative;
+	z-index: 1;
+	box-shadow: 3px 3px 15px 1px #828282
+}
+
+img.capadestaque {
+	height: 300px;
+	border-right:2px solid grey;
+}
+
+p.descricaodestaque {
+	color: #D3D3D3;
+	font-family:"calibri";
+	text-align: left;
+	width: 300px;
+	float: right;
+	position: absolute;
+	margin-top:-300px;
+	margin-left:650px; 
+	line-height: 18px;	
+}
+
+
+p.precodestaque {
+	font-family: "calibri";
+	color: white;
+	float: right;
+	position: absolute;
+	top: 90px; 
+	left: 650px;
+	font-size:35px;
+}
+
+table.categoriadestaque {
+	font-family: "calibri";
+	color: #D3D3D3;
+	position: absolute;
+	top:200px;
+	left: 625px;
+}
+/*botão de compra do painel de destaque que está preenchido pelo melhor jogo criado pela humanidade portal2 é nois uhu*/
+.btnd {
+	position: relative;
+	left: 145px;
+	bottom: 145px;
+	font-family:"arial";
+	font-size: 22px;
+	font-weight: 700;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.btnd-g {
+	color: white;
+	background-color: #209231;
+	box-shadow: 0 5px 0 #176923;
+}
+
+/*hover é quando o mouse passa em cima*/
+.btnd-g:hover {
+	color: white;
+	background-color:#176923;
+	box-shadow: 0 5px 0 #12541c;
+}
+/*acitive é quando clica*/
+.btnd-g:active {
+	position: relative;
+	bottom: 140px;
+	color: white;
+	background-color: #176923;
+	box-shadow: none;
+}	
+
+
+
+/*PRINCIPAL CONTEUDO*/
+#conteudo {
+	width: 100%;
+	height: 2000px;
+	position: absolute;
+	top: 450px;
+	left: 0;
+	background-color: #202f46;
+	z-index: 1;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+
+/* Primeiro jogo */
+
+#jogoum {
+	background-color: #2a3f5e;
+	width: 900px;
+	height: 290px;
+	position: relative;
+	top:40px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+img.capajogoum {
+	width: 600px;
+	height: 290px;
+	
+}
+
+p.descricao1 {
+	color: #D3D3D3;
+	font-family:"calibri";
+	text-align: left;
+	width: 18em;
+	float: right;	 
+	line-height: 18px;	
+	position: relative;
+	top:-7px;
+	left: -2px;
+}
+
+#preco1 {
+	width: 300px;
+	height: 70px;
+	background-color: #202f46;
+	position: absolute;
+	left:600px;
+	bottom: 120px
+}
+
+
+p.precodojogo {
+	font-family: "calibri";
+	color: white;
+	float: right;
+	position: absolute;
+	top: -21px; 
+	left: 10px;
+	font-size: 35px;
+}	
+
+table.categoriajogo {
+	font-size: 18px;
+	font-family: "calibri";
+	color: #D3D3D3;
+	position: absolute;
+	top:200px;
+	left: 590px;
+}
+
+
+/*Fim do primeiro jogo*/
+
+
+#jogodois {
+	background-color: #2a3f5e;
+	width: 900px;
+	height: 290px;
+	position: relative;
+	top:50px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+#jogotres {
+	background-color: #2a3f5e;
+	width: 900px;
+	height: 290px;
+	position: relative;
+	top:60px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+#jogoquatro {
+	background-color: #2a3f5e;
+	width: 900px;
+	height: 290px;
+	position: relative;
+	top:70px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+#jogocinco {
+	background-color: #2a3f5e;
+	width: 900px;
+	height: 290px;
+	position: relative;
+	top:80px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+#jogoseis {
+	background-color: #2a3f5e;
+	width: 900px;
+	height: 290px;
+	position: relative;
+	top:90px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+
+/*Botão de comprar */
+.btn {
+	position: relative;
+	left: 163px;
+	top:12px;
+	font-family:"arial";
+	font-size: 22px;
+	font-weight: 700;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+
+}
+
+.btn-g {
+	color: white;
+	background-color: #209231;
+	box-shadow: 0 5px 0 #176923;
+	text-decoration: none;
+}
+
+.btn-g:hover {
+	color: white;
+	background-color:#176923;
+	box-shadow: 0 5px 0 #12541c;
+}
+
+.btn-g:active {
+	position: relative;
+	top:17px;
+	color: white;
+	background-color: #176923;
+	box-shadow: none;
+}	
+
+/*PAGINA DE CADA JOGO*/
+#conteudocadajogo {
+	width: 100%;
+	height: 2000px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	background-color: #202f46;
+	z-index: 1;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}	
+/*DIV DE CADA JOGO*/
+#cadajogo {
+	background-color: #2a3f5e;
+	width: 90%;
+	height: 315px;
+	position: relative;
+	top:45px;
+	left:50px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+/* SCREENSHOT 1*/
+img.screenshot1 {
+	width: 24%;
+	height: 45%;
+	position: absolute;
+	top:2%;
+	left:47%;
+}
+
+img.screenshot1-1:hover {
+	width: 50%;
+	height: 95%;
+	position: absolute;
+	top:2%;
+	left:47%;
+	z-index: 2;
+}
+
+/*SCREENSHOT 2*/
+img.screenshot2 {
+	width: 24%;
+	height: 45%;
+	position: absolute;
+	top:2%;
+	left:72%;
+}
+
+img.screenshot2-1:hover {
+	width: 50%;
+	height: 95%;
+	position: absolute;
+	top:2%;
+	left:47%;
+	z-index: 2;
+}
+
+/* SCREENSHOT 3*/
+img.screenshot3 {
+	width: 24%;
+	height: 45%;
+	position: absolute;
+	top:52%;
+	left:47%;
+}
+
+img.screenshot3-1:hover {
+	width: 50%;
+	height: 95%;
+	position: absolute;
+	top:2%;
+	left:47%;
+	z-index: 2;
+}
+
+/*SCREENSHOT 4*/
+img.screenshot4 {
+	width: 24%;
+	height: 45%;
+	position: absolute;
+	top:52%;
+	left:72%;
+
+}
+
+img.screenshot4-1:hover {
+	width: 50%;
+	height: 95%;
+	position: absolute;
+	top:2%;
+	left:47%;
+	z-index: 2;
+}
+/*DESCRIÇÃO COMPLETA DO JOGO*/
+p.descricaocompletajogo {
+	color: #D3D3D3;
+	font-family:"calibri";
+	text-align: left;
+	position: relative;
+	top:40px;
+	left: 30px;
+	font-size: 20px;
+	width: 90%;
+}
+/*NOME DO JOGO */
+h1.nomedojogo {
+	z-index: 2;
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	font-family: "calibri";
+	color: #D3D3D3;
+}
+/*DIV DE PAGAMENTO*/
+#pagamento{
+	background-color:#2a3f5e;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	width: 45%;
+	height: 700px;
+	position: relative;
+	top:50px;
+	left:30px;
+	z-index: 3;
+}
+
+h1.pagamentonome {
+	z-index: 2;
+	position: absolute;
+	top:-10px;
+	left: 40px;
+	font-family: "calibri";
+	color: #D3D3D3;
+}
+
+p.nomenumcard {
+	font-family: "calibri";
+	color: #D3D3D3;
+	font-size: 20px;
+	position: relative;
+	top:70px;
+	left: 20px;
+}
+
+input.card {
+	position: relative;
+	width: 200px;
+	height: 22px;
+	background-color: #202f46;
+	border:2px solid #192538;
+	color: white;
+	font-weight: 400;
+
+}
+
+input.cod{
+	position: relative;
+	width: 50px;
+	height: 22px;
+	background-color: #202f46;
+	border:2px solid #192538;
+	color: white;
+	font-weight: 400;
+
+}
+
+.btnc {
+	position: relative;
+	left:-65px;
+	top:70px;
+	font-family:"arial";
+	font-size: 22px;
+	font-weight: 700;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.btnc-g {
+	color: white;
+	background-color: #209231;
+	box-shadow: 0 5px 0 #176923;
+}
+
+.btnc-g:hover {
+	color: white;
+	background-color:#176923;
+	box-shadow: 0 5px 0 #12541c;
+}
+
+.btnc-g:active {
+	position: relative;
+	top:75px;
+	color: white;
+	background-color: #176923;
+	box-shadow: none;
+}	
+
+
+
