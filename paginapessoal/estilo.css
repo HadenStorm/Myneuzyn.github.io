@@ -79,7 +79,6 @@ body {
 
 #gosto:hover {
 	background-image: url(bloco1hover.png);
-	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
