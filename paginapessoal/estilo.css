@@ -81,6 +81,7 @@ body {
 	background-image: url(bloco1hover.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: red;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -105,6 +106,7 @@ body {
 	background-image: url(bloco2hover.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: orange;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -128,6 +130,7 @@ body {
 	background-image: url(bloco3hover.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: yellow;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -151,6 +154,7 @@ body {
 	background-image: url(bloco4hover.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: green;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -174,6 +178,7 @@ body {
 	background-image: url(bloco5hover.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color:blue;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -197,6 +202,7 @@ body {
 	background-image: url(pbjt.gif);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: violet;
 	width: 96%;
 	height: 96%;
 	position: absolute;
