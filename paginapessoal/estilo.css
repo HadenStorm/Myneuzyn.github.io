@@ -68,6 +68,7 @@ body {
 
 #gosto {
 	background-image: url(bloco1.png);
+	background-size: cover;
 	width: 30%;
 	height: 45%;
 	position: absolute;
@@ -78,6 +79,7 @@ body {
 
 #gosto:hover {
 	background-image: url(bloco1hover.png);
+	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -89,6 +91,7 @@ body {
 
 #naogosto {
 	background-image: url(bloco2.png);
+	background-size: cover;
 	width: 30%;
 	height: 45%;
 	position: absolute;
@@ -99,6 +102,7 @@ body {
 
 #naogosto:hover {
 	background-image: url(bloco2hover.png);
+	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -109,6 +113,7 @@ body {
 
 #faco {
 	background-image: url(bloco3.png);
+	background-size: cover;
 	width: 30%;
 	height: 45%;
 	position: absolute;
@@ -119,6 +124,7 @@ body {
 
 #faco:hover {
 	background-image: url(bloco3hover.png);
+	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -129,6 +135,7 @@ body {
 
 #favoritos {
 	background-image: url(bloco4.png);
+	background-size: cover;
 	width: 30%;
 	height: 45%;
 	position: absolute;
@@ -139,6 +146,7 @@ body {
 
 #favoritos:hover {
 	background-image: url(bloco4hover.png);
+	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -149,6 +157,7 @@ body {
 
 #problemas {
 	background-image: url(bloco5.png);
+	background-size: cover;
 	width: 30%;
 	height: 45%;
 	position: absolute;
@@ -159,6 +168,7 @@ body {
 
 #problemas:hover {
 	background-image: url(bloco5hover.png);
+	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
@@ -169,6 +179,7 @@ body {
 
 #naosei {
 	background-color: violet;
+	background-size: cover;
 	width: 30%;
 	height: 45%;
 	position: absolute;
@@ -179,6 +190,7 @@ body {
 
 #naosei:hover {
 	background-image: url(pbjt.gif);
+	background-size: cover;
 	width: 96%;
 	height: 96%;
 	position: absolute;
