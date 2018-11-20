@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cauculadora Juros</title>
+
+	<meta charset="utf-8">
+
+	<style type="text/css">
+body{
+	background-color: #D3D3D3;
+	font-family: "calibri";
+	font-size: 20px;
+}		
+
+#resultado{
+	position: absolute;
+	left:40%;
+	top: 14.5%;
+	font-family: "calibri";
+	font-weight: 900;
+}
+
+#titulo2{
+	position: relative;
+	left: 20%;
+
+}
+	</style>
+
+</head>
+
+<body>
+	<h1> Calculadora de Juros Compostos </h1>
+
+	<h2 id="titulo2"> Resultado: </h2>
+
+	Capital Inicial: <br>
+	<input type="text" id="cap1" name=""> <br> <br>
+
+	Juros (em %): <br>
+	<input type="text" id="juro" name=""> <br> <br>
+
+	Tempo (em meses): <br>
+	<input type="text" id="meses" name=""> <br> <br>
+
+	<button id="botao"> Calcular </button>
+
+	<div id="resultado"></div>
+
+	<script src="calculadorascript.js"></script>
+
+	
+
+</body>
+</html>
