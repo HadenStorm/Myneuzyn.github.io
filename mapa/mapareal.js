@@ -40,6 +40,8 @@ function mostrarPosicao(pos){
 
 		var lat2 = document.getElementById('latitude').value;//pega os valores inseridos
 		var lon2 = document.getElementById('longitude').value;
+		if(lat2=="" || lon2==""){alert("Insira as coordenadas!")}
+		else{
 
 		lat2 = lat2.replace(",","."); //troca a virgula por ponto
 		lon2 = lon2.replace(",",".");
@@ -87,7 +89,7 @@ function mostrarPosicao(pos){
 		    [lat1, lon1],
 		    [lat2, lon2],
 		]).addTo(mymap);
-
+		}
 	}
 
 }
