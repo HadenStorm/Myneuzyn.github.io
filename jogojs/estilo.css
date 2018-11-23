@@ -1,0 +1,126 @@
+#pedra{
+	background-image: url("pedra.png");
+	background-color: #FFD83D;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 40vw;
+	height: 150px;
+	position: absolute;
+	left: 10%;
+	top: 12%;
+	box-shadow: 10px 10px 58px -12px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+#pedra:active{
+	width: 35vw;
+	height: 140px;
+	position: absolute;
+	left: 15%;
+	top: 14%;
+}
+
+#papel{
+	background-image: url("papel.png");
+	background-color: #FFD83D;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 40vw;
+	height: 150px;
+	position: absolute;
+	left: 10%;
+	top:42%;
+	box-shadow: 10px 10px 58px -12px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+#papel:active{
+	width: 35vw;
+	height: 140px;
+	position: absolute;
+	left: 15%;
+	top: 44%;
+}
+
+#tesoura{
+	background-image: url("tesoura.png");
+	background-color: #FFD83D;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 40vw;
+	height: 150px;
+	position: absolute;
+	left: 10%;
+	top: 73%;
+	box-shadow: 10px 10px 58px -12px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+#tesoura:active{
+	width: 35vw;
+	height: 140px;
+	position: absolute;
+	left: 15%;
+	top: 75%;
+}
+
+#escolhaPC{
+	background-color: #FFD83D;
+	background-size: cover;
+	width: 40vw;
+	height: 80vh;
+	position: relative;
+	top: 14%;
+	left: 10%;
+	box-shadow: 10px 10px 58px -12px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+
+#jogadaH{
+	background-image: url("fundo.jpg");
+	background-size: 71px 71px;
+	width: 50vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#jogadaPC{
+	background-image: url("fundo.jpg");
+	background-size: 71px 71px;
+	background-repeat: repeat;
+	width: 50vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right:0;
+
+}
+#pontuacao{
+	background-color: white;
+	height: 9vh;
+	width: 30vw;
+	position: absolute;
+	left: 50%;
+	margin-left: -15vw;
+	top: 10px;
+	box-shadow: 10px 10px 58px -12px rgba(0,0,0,0.75);
+	border-radius: 10px;
+	font-size: 30px;
+	font-family: "calibri";
+	text-align: center;
+	font-weight: 900;
+}
+
+#pontuacao2{
+	background-color: white;
+	height: 9vh;
+	width: 30vw;
+	position: absolute;
+	left: 50%;
+	margin-left: -15vw;
+	top: 10px;
+	box-shadow: 10px 10px 58px -12px rgba(0,0,0,0.75);
+	border-radius: 10px;
+	font-size: 30px;
+	font-family: "calibri";
+	text-align: center;
+	font-weight: 900;
+}
