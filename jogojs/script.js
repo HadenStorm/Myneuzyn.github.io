@@ -12,9 +12,6 @@ function inic(){
     var tesoura = document.getElementById('tesoura');
     var pc = document.getElementById('escolhaPC');
 
-
-
-
     pedra.addEventListener("click",escolhaPedra);
     function escolhaPedra(){
         JogadaHumano = "pedra";
@@ -40,22 +37,19 @@ function inic(){
     console.log(jogadapc)
 
     if (jogadapc < 3.3) {
-
     jogadapc = "pedra";
     pc.style.backgroundImage = "url('pedraPC.png')";
-
-    } else if(jogadapc <= 6.6) {
-
+    }
+    else if(jogadapc <= 6.6) {
     jogadapc = "papel";
     pc.style.backgroundImage = "url('papelPC.png')";
-
-    } else {
-
+    } 
+    else{
     jogadapc = "tesoura";
     pc.style.backgroundImage = "url('tesouraPC.png')";
-
     } 
-    console.log("JogadaPC: " + jogadapc);
+        
+    console.log(jogadapc);
 
     compare(JogadaHumano,jogadapc);
     }
@@ -66,56 +60,39 @@ function compare (Jogada1, Jogada2) {
     if (Jogada1 == Jogada2){
     alert("Empate!");    
     console.log ("O resultado é um empate!")
-}
-    else if (Jogada1 == "pedra") {
-
+    }
+    else if (Jogada1 == "pedra"){
+        
         if (Jogada2 == "tesoura"){
-
         console.log ("pedra vence")
         pontosH++;
         }
-
         else {
-
             console.log ("papel vence")
             pontosPC++;
-
         }
-
-    }
-
-    else if (Jogada1 == "papel") {
+   }
+   else if (Jogada1 == "papel") {
 
         if (Jogada2 == "pedra"){
-
         console.log ("papel vence")
         pontosH++;
         }
-
         else {
-
             console.log ("tesoura vence")
             pontosPC++;
-
         }
-
-    }
-
-    else if (Jogada1 == "tesoura") {
+   }
+   else if (Jogada1 == "tesoura") {
 
         if (Jogada2 == "pedra"){
-
         console.log ("pedra vence")
         pontosPC++;
         }
-
         else {
-
             console.log ("tesoura vence")
             pontosH++;
-
         }    
-
     }
     pontuacao.innerHTML = nome + ": " + pontosH;
     pontuacao2.innerHTML = "Computador: " + pontosPC;
